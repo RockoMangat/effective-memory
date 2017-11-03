@@ -1,0 +1,33 @@
+1. var todos = ["item 1", "item 2", "item 3", "item 4"]
+2. function displayTodos() {
+  console.log('My todos:', todos);
+}
+3. function addTodo() {
+ todos.push('new todo');
+}
+4. function addTodo() {
+ todos.push('new todo');
+ displayTodos();
+}
+5. function addTodo(todo) {
+ todos.push(todo);
+ displayTodos();
+}
+6. function changeTodo(position, newValue) {
+ todos[position] = newValue;
+displayTodos();
+}
+7. function deleteTodo(position) {
+ todos.splice(position, 1);
+displayTodos()
+}
+
+
+
+
+
+1. var myComputer = {
+  operatingSystem: 'mac',
+  screenSize: '13 inches',
+  purchaseYear: 2011
+}
